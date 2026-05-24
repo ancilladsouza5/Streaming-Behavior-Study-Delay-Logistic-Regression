@@ -1,4 +1,5 @@
-Streaming Behavior & Study Delay Analysis
+Streaming Behavior & Study Delay Analysis  -
+
 This project analyzes the impact of streaming behavior on students’ study delay during examination periods using a Binary Logistic Regression model.
 The study is based on survey data (118 responses) and examines variables such as streaming time, streaming frequency, binge watching behavior, and age.
 
