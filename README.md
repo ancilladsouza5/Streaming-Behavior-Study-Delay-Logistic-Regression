@@ -16,7 +16,7 @@ To empirically evaluate whether digital streaming habits significantly influence
   * Weekly Streaming Frequency
   * Binge-Watching Behavioral Traits
 
-## Methodology & Statistical Validation
+## Models & Statistical Validation
 1. **Descriptive Analysis:** Initial data profiling and demographic summaries.
 2. **Binary Logistic Regression:** Modeling the log-odds of a study delay based on behavioral predictors.
 3. **Multicollinearity Diagnostic:** Variance Inflation Factor (VIF) checking to ensure stable coefficients.
@@ -27,21 +27,23 @@ To empirically evaluate whether digital streaming habits significantly influence
 ## Model Outputs & Visualizations
 
 ### Logistic Regression Curve
+The plotted S-Curve highlights the probability thresholds of study delays as streaming habits scale:
 ![Logistic Regression Curve](LOGISTIC%20Regression%20curve.png)
 
-### Model Performance Metrics
+### Model Diagnostics & Diagnostics Performance
 Below are the statistical diagnostics, classification checks, and multicollinearity evaluations derived from the analysis:
 
-| Confusion Matrix | Coefficients Analysis |
+| Confusion Matrix Model Validation | Feature Coefficients Analysis |
 | :---: | :---: |
 | ![Confusion Matrix](confusion_matrix.png) | ![Coefficients Analysis](streaming_coefficients.impactpng) |
 
 ### Multicollinearity Diagnostics (VIF Table)
+The clean Variance Inflation Factor (VIF) analysis confirms zero problematic independent variable cross-correlations:
 ![VIF Table](vif_table_clean.png)
 
 ---
 
-## 📂 Project Repository Structure
+## Project Repository Structure
 * `Econometrics-Analysis.xlsx` — Raw data management, cleaning, and preliminary cross-tabulations.
 * `Streaming_data.csv` — Final processed dataset utilized for modeling.
 * `Report Econometrics.pdf` — Complete formal research paper outlining theoretical frameworks and conclusions.
