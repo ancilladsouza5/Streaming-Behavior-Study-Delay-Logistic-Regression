@@ -2,7 +2,6 @@
 
 An econometrics study analyzing the impact of streaming behavior (time, frequency, binge-watching, and age) on students' study delay during examination periods using primary survey data ($N = 118$).
 
----
 
 ## Objective
 To empirically evaluate whether digital streaming habits significantly influence a student's likelihood of delaying their studies during crucial exam preparation windows.
