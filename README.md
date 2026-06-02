@@ -1,22 +1,47 @@
-Streaming Behavior & Study Delay Analysis  -
+# Streaming Behavior & Student Study Delay Analysis (Logistic Regression)
 
-This project analyzes the impact of streaming behavior on students’ study delay during examination periods using a Binary Logistic Regression model.
-The study is based on survey data (118 responses) and examines variables such as streaming time, streaming frequency, binge watching behavior, and age.
+An econometrics study analyzing the impact of streaming behavior (time, frequency, binge-watching, and age) on students' study delay during examination periods using primary survey data ($N = 118$).
 
-Methodology-
-Descriptive analysis
-Binary Logistic Regression
-Model validation (Confusion Matrix, VIF)
+---
 
-Dataset-
-118 survey responses
-Variables: Age, streaming time, frequency, binge watching, study delay (Yes/No)
+## Objective
+To empirically evaluate whether digital streaming habits significantly influence a student's likelihood of delaying their studies during crucial exam preparation windows.
 
-Outputs-
-Logistic regression curve
-Confusion matrix
-Coefficients analysis
-VIF table
+## Dataset & Variables
+* **Sample Size:** 118 primary survey responses
+* **Dependent Variable (Y):** Study Delay (`Yes` / `No` - Binary)
+* **Independent Variables (X):**
+  * Age
+  * Daily Streaming Time
+  * Weekly Streaming Frequency
+  * Binge-Watching Behavioral Traits
 
-Objective-
-To study whether streaming behavior influences students’ likelihood of delaying studies during exam preparation.
+## Methodology & Statistical Validation
+1. **Descriptive Analysis:** Initial data profiling and demographic summaries.
+2. **Binary Logistic Regression:** Modeling the log-odds of a study delay based on behavioral predictors.
+3. **Multicollinearity Diagnostic:** Variance Inflation Factor (VIF) checking to ensure stable coefficients.
+4. **Model Performance Evaluation:** Confusion Matrix calculations for accuracy, sensitivity, and specificity boundaries.
+
+---
+
+## Model Outputs & Visualizations
+
+### Logistic Regression Curve
+![Logistic Regression Curve](LOGISTIC%20Regression%20curve.png)
+
+### Model Performance Metrics
+Below are the statistical diagnostics, classification checks, and multicollinearity evaluations derived from the analysis:
+
+| Confusion Matrix | Coefficients Analysis |
+| :---: | :---: |
+| ![Confusion Matrix](confusion_matrix.png) | ![Coefficients Analysis](streaming_coefficients.impactpng) |
+
+### Multicollinearity Diagnostics (VIF Table)
+![VIF Table](vif_table_clean.png)
+
+---
+
+## 📂 Project Repository Structure
+* `Econometrics-Analysis.xlsx` — Raw data management, cleaning, and preliminary cross-tabulations.
+* `Streaming_data.csv` — Final processed dataset utilized for modeling.
+* `Report Econometrics.pdf` — Complete formal research paper outlining theoretical frameworks and conclusions.
